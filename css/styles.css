@@ -720,6 +720,80 @@ display: flex;
 }
 
 
+.footer-subscribe {
+   
+    padding-left: 80px;
+}
+
+.subscribe-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer-form {
+    display: flex;
+    flex-shrink: 0;
+    }
+
+.subscribe-lable {
+    
+}
+
+.suscribe-input {
+    width: 264px;
+        height: 40px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        color: #ffffff;
+}
+.suscribe-input::placeholder{
+    color: #FFF;
+       
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.04em;
+}
+
+.subscribe-btn {
+    margin-left: 24px;
+    display: inline-flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        min-width: 165px;
+            height: 40px;
+        border-radius: 4px;
+            background-color: #4D5AE5;
+            fill: white;
+            color:  #FFF;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                cursor: pointer;
+                border: none;
+
+}
+
+.subscribe-icon {}
+
+
 
 /*-------MODAL------*/
 
@@ -875,7 +949,7 @@ transform: translateY(-50%);
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
-    color: currentColor;
+    fill: currentColor;
     
 }
 
@@ -942,6 +1016,12 @@ display: flex;
     fill: transparent;
 
 }
+.input-checkbox:checked + .term-lable-box > span {
+    background-color: #404BBF;
+    border: none;
+    fill: #FFFFFF;
+    border-color: #404BBF;
+}
 
 .terms-icon {}
 
@@ -949,13 +1029,7 @@ display: flex;
    
         color: rgba(77, 90, 229, 1);
 }
-       
-
-
     
-
-
-
 
 .form-btn {
   
