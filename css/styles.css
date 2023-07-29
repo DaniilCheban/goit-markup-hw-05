@@ -873,10 +873,12 @@ border-radius: 50%;
 
 /* ================FORM=============*/
 
-
+.modal{
+    padding: 72px 24px;
+}
 
 .form-container{
-    padding: 72px 24px;
+   
 }
 .modal-title { 
    font-family: "Roboto", sans-serif;
