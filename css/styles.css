@@ -892,15 +892,9 @@ border-radius: 50%;
         
 }
 
-.modal-form {
-    
-}
+.modal-form {}
 
-.modal-area {
-    
-  
-   
-}
+.modal-area {}
 
 .user-title, .user-title-text {
     font-family: "Roboto", sans-serif;
@@ -954,8 +948,6 @@ transform: translateY(-50%);
     fill: currentColor;
     
 }
-
-
 
 .coment-text-area {
     width: 100%;
@@ -1031,7 +1023,6 @@ display: flex;
    
         color: rgba(77, 90, 229, 1);
 }
-    
 
 .form-btn {
   
