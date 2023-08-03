@@ -856,7 +856,7 @@ display: flex;
     outline: transparent;
     color: var(--primary-black-color);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid  rgba(46, 47, 66, 0.40));
+    border: 1px solid  rgba(46, 47, 66, 0.40);
 }
 
 .modal-input:hover,
